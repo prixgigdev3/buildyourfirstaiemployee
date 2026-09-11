@@ -1,0 +1,279 @@
+SALES PAGE COPY — DEVELOPER BUILD
+Offer: Get Your First AI Employee Working  ·  Container: The AI Founder's Vault  ·  Checkout: Skool About  ·  Structure cloned from buildyourappwithai.com section order. Product is NOT the $5 app challenge. Do not put 1,300 / 1,500 / 200+ on the first screen. Do not invent testimonials. Do not use Jacques Mulder as a Vault case study.
+Repeat the BUTTON block wherever CTA is marked.
+SECTION 1 — HERO
+DEV: Full-width hero. Layout: left = copy stack (eyebrow, headline, subhead, door). Right or under headline = VSL embed. On mobile, video sits under the subhead and above the door, or under the door and above the primary CTA. Primary CTA always sits under the video. Photo of Johnny is not the hero if the VSL is live. No warehouse stats row.
+Eyebrow:
+The AI Founder's Vault
+Headline:
+Get Your First AI Employee Working
+Subhead:
+Get your time back on the job you still do yourself. You don't need to learn the tech.
+Door paragraph:
+You're still the bottleneck. The work only goes out when you do it. You pick that leftover work. This week the first employee drafts it. You hit send. If that doesn't happen, you get your money back.
+VSL (required in hero):
+Place the VSL here. Do not ship a hero with only a still of Johnny if the video is ready. Desktop: video right of the copy stack, or full-width under the subhead / door. Mobile: video under the subhead, above the primary CTA.
+Video title on player: Get Your First AI Employee Working
+On-screen lines already locked in the VSL script: Get your time back on the job you still do yourself. You don't need to learn the tech. Glue work. You still hit send. 17 ready-made AI employees. How I use mine. Me. Hot seats. Peers. $37 / month or $297 / year. 7-day money back. Draft on YOUR job, or refund.
+Fallback if the file is not live yet: poster frame with play button. Poster line: Watch how the first employee takes the leftover job. Under the poster, same door sentence and same CTA. Do not replace the VSL with a feature montage or a YouTube long-form embed of the 134k box video. That video is the long way. This player is the offer.
+Player spec: 16:9. Captions on. Autoplay off. CTA button sits immediately under the player. Do not hide the headline when the video is present. Copy + video + button is the hero.
+Micro line under video + CTA:
+It drafts. You hit send.  ·  Ready-made employees  ·  Plug in this week  ·  7-day money back
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 2 — OFFER OVERVIEW
+DEV: Short band under hero. Three facts + disclaimer + CTA.
+Kicker:
+This week. One leftover job. One ready-made employee. A draft you can send.
+You do not need to tour the vault. You do not need to learn the tech. You do not need to hire anyone. You pick the work that is still stuck on you, plug in one ready-made employee, and hit send on a real draft.
+If a draft of that job is not sitting there in 7 days, ready for you to send, and you did the steps, cancel and you get your money back. That only works if you actually do the week.
+One rule: one job this week. If you pick five, you finish none of them.
+Results disclaimer: I am not sitting behind your computer. I cannot set these up for you. I am not you. I will not tell you this will print a number into your account. Your numbers will be your numbers.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 3 — INSTRUCTOR INTRODUCTION
+DEV: Short Johnny block. Photo + 4 lines. Not the 17-grid. Not a bio-as-offer.
+Label:
+I'm Johnny Nel.
+I am a founder who runs the company on agents, not a human org chart. That is why I can tell you you can stay founder. It is not why you join. You do not buy my roster on day one. You buy one leftover loop. Next seat after the first send.
+The long way is on YouTube. There is a video on that channel with more than 134,000 views. That video teaches the box. It does not prove a leftover job left your business. This page is the employee already built. You don't need to learn the tech to use it.
+SECTION 4 — THE WEEK AT A GLANCE
+DEV: Three-column or three-row facts, then CTA. Pattern from the $5 page '90 minutes/day + working app' band.
+Time this week:
+Step 0 to Step 5 can be done in one sitting if you already know the leftover job. The 7 days are there so the second send can happen, and so the guarantee is real.
+What you walk out with:
+One named leftover job. One ready-made employee plugged in. Two files inside it: how you talk, what it must never send. One real draft sent. Then the same job sent a second time.
+Who it is for:
+Founders and solopreneurs who already have a business and still do the work themselves.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 5 — WHO THIS IS FOR / WHO LEAVES
+DEV: Two columns. For / Not for. Place this BEFORE the 17-name stack.
+This is for you if:
+You already have a live business.
+ChatGPT already started the work. You still shipped it.
+You are the bottleneck. You do not know what to hire first, so you hire nobody.
+You will put one employee on one leftover loop this week.
+You will keep the send button.
+You will not become the engineer.
+This is not for you if:
+You sell AI.
+You want to become the engineer. The channel is that course. This page is the employee already built.
+You want to land client number one from this room.
+You want a 17-seat chart before one draft has left.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 6 — DAY BY DAY  (START HERE ON THE PAGE)
+DEV: Repeatable module cards. Day label + time + what happens + done-when + do-not. CTA after Day 0-1 pair, after Day 3, after Day 7. Copy from Start Here, compressed for a sales page.
+Day 0 — Watch this first (3 minutes)
+This is the welcome. It is not a tour.
+What you hear: you joined to get one leftover job off your plate. Not to become the engineer. Not to collect files.
+Done when: you watched it and you know the only goal this week is one real send.
+Do not scroll the classroom after this. Go name the job.
+Day 0 — Name the leftover job (20 minutes)
+Do not map the whole company. Only look at YOUR work this week.
+Write down everything you still have to finish yourself in the next 7 days. Put each item in one box: I am great at this and should keep it. I am fine at this and it is still stuck on me. I do not want to do this. I am bad at this.
+Circle one thing from I do not want this or I am bad at this. If those boxes are empty, circle the thing from I am fine at this that still only goes out when you do it.
+Post this sentence in Start Here:
+The leftover job this week is: ________. It only goes out if I do it.
+Done when: that sentence is written and posted. One job. Named.
+If you cannot name one job in 20 minutes, post that. Do not start building an org chart. Come to the next hot seat with your list.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+Day 1 — Pick the employee that matches that job
+Do not browse everything in the vault. Match the job you just named to one ready-made employee.
+Follow-ups, replies, open loops, things still sitting in the inbox → Inbox / follow-up employee. It drafts the thing you still owe. You hit send.
+A script, a post, research, or the thing you still write every week → Content employee. It drafts the piece. You keep the send button.
+A daily block you still assemble. Record. Upload. Schedule. → Daily production employee. It takes the repeat loop off you. You still approve what goes out.
+A quote, a proposal, or a reply that has been sitting → Quote / reply employee. It drafts from how you already talk. You send it.
+Your calendar, the next step after a meeting, what moved and what did not → Calendar / open-loop employee. It shows you what still needs you. You decide.
+If none fit, pick the closest one. Do not invent a new agent this week. Post: My job is X. I am using Y.
+Done when: you have one employee name next to the job from Day 0.
+Day 1–2 — Plug it in
+Open the tool. Plug in the ready-made employee for the job you picked. Then paste two things before you give it work.
+How you talk. A few real examples of how you already write or speak when this job goes well.
+What it must never send. Prices you do not quote. Promises you do not make. People it must not contact. Anything that would embarrass you if it went out.
+Follow the click-for-click on that employee's card. If you get stuck, post in Start Here or bring it to the hot seat. Do not start another employee instead.
+You will spend about $30 a month on the tool it runs on. That sits next to the $37, not inside it.
+Done when: the employee is plugged in and those two files are in it.
+Day 3 — Give it real leftover work
+Not a demo. Not write me a sample. Give it the actual thing from Day 0. The email you owe. The script you have been avoiding. The block that has to go out. The quote still sitting.
+If you feed it fake work, you will get a fake employee.
+Done when: one real piece of leftover work is in front of the employee.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+Day 3–5 — Read it. Fix it. Hit send. Then send it again.
+A draft should now be sitting there. Read it like you are about to put your name on it. Because you are.
+If it is close, fix the bits that are not you. Send it.
+If it is off, tell it what was wrong in one sentence. Get a second draft. Then send it.
+If it is dangerous, that is why you keep the send button. Do not let it go out. Tighten what it must never send and run it again.
+You are not looking for perfect. You are looking for sent.
+Then do the same job one more time. Same employee. Fresh leftover work of the same type. One send is a trick. Two sends is a job.
+Done when: a real draft went out from you, and a second real draft went out on the same leftover job. You do not have to share the client name. Post: I sent the follow-up. I sent the script.
+Day 7 — Check the week
+Ask only this: did a real draft of the leftover job I named leave my hands this week?
+If yes, you are in. Next week you can run these same steps on the next leftover job. Do not open the rest of the vault until this is true.
+If no, and you did the steps, cancel inside 7 days and you get your money back. Message Johnny. No lecture.
+If no, and you skipped steps, do not cancel yet. Book the hot seat. Bring the job from Day 0. We get the draft sitting.
+Done when: you can answer yes, or you have cancelled, or you are on the next hot seat with your named job.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 7 — WHY THE TAB COULD NOT TAKE YOU OFF THE WORK
+DEV: Three camp cards. Visual comparison. No 1,000x language.
+Camp 1 — The tab.
+ChatGPT has no job. It has a chat. You give it a prompt. It gives you text. Then you become the office again. Tone. Facts. Whether it should go out. The last click is still you, because there is no seat and no send gate.
+Camp 2 — The vault.
+Too many seats. No first job. You collect. Sunday the inbox wins. Thirty days later you cancel and tell yourself you did not have time. You had time to copy and send. You did not have one job small enough to finish.
+Camp 3 — The hire you cannot name.
+Hiring looks like the adult answer until you write the listing. Now you have a person to find, train, and manage, and you still do not know which loop to hand them. Founders in this spot have paid $800 a month for that and still handled every client message themselves. I am not saying that is your story. I am saying that is the hole.
+The missing object:
+One leftover job. A ready-made employee. A draft you can see. A button you keep. No tech course required.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 8 — HOW AN AI EMPLOYEE HELPS
+DEV: Replaces 'types of apps' and 'pillars' on the $5 page.
+An AI employee does not have to replace you unless you want it to. Most founders in this room already work alongside AI all day. This is that, with a job.
+It can take the leftover loop you name, put a draft on it, and wait for you to hit send. Nothing leaves without you unless you later choose that.
+Three pillars this week:
+1. Name the leftover job that still only goes out if you do it.
+2. Plug in one ready-made employee. How you talk. What it must never send.
+3. Hit send. Then send the same job a second time.
+Same physics. Different leftover jobs:
+Person A runs a content business. Scripts. Structure. Research. The work still only goes out if they write it.
+Person B runs a radio station. Record the block. Upload it. Hit schedule. Every day.
+The follow-up still sitting. The quote they asked for. The reply opened four times. Admin still on their plate. Open loops that only get ranked at night.
+You pick yours. I do not pick your industry.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 9 — PROOF WE CAN STAND BEHIND
+DEV: Do NOT build an 'apps I shipped' grid of Vault wins we do not have. Do NOT use Jacques Mulder here. Use honest proof + how Johnny uses the suite.
+I will not put a shop on this page that has not sent a leftover job and pretend they did. When a founder in this room hits send on the loop they named, that line goes here. Until then the honest proof is the week above, or your money back.
+How I use mine — so you can see the leftover jobs, not so you buy the grid on day one:
+Pulse ranks what needs me. Drafts sit. Nothing sends until I hit send.
+Vesper chases projects until the work lands.
+Donna answers inbound in my voice.
+Scribe and Nova draft the short and the long content that used to only ship if I wrote it.
+Radar watches the feed so I do not.
+Ledger shows where money leaks.
+The box can fail. We show that. Nothing leaves without you.
+Possibility, not a forecast: some owners using AI have reported getting roughly four hours a week back. Some founders describe going from doing the loop to reviewing a draft. I am not you. I cannot promise your hours or your bank.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 10 — THE 17 READY-MADE AI EMPLOYEES
+DEV: Stack opener. Grouped list. Names + one-line benefit. This is the $5 page's 'what you get' plus the apps grid, rewritten as seats. After the list, pinch to one job.
+Seventeen ready-made AI employees. The suite it would take a massive human team to run. Already built. You plug them in. You run. This is how I use mine. You get the same suite inside the community.
+Ops
+Clark — keeps the agent company running. Cadence. Connectors. Fixes. You do not babysit infrastructure.
+Vesper — projects and executive ops. Plans. Milestones. Briefs. Chase until the work lands.
+Pulse — daily open-loops brain. Ranked what needs you. Noise killed. Drafts ready. No auto-send.
+Anchor — studio and desktop reliability. Internal tech support so the link stays up.
+Ledger — finance. P and L. Spend versus growth. Where money leaks. What to fund next.
+Lisa — decision council. Stuck call. Five lenses. Sharp read. No standing meeting.
+Growth and brand
+Swen — head of growth. Scoreboard. KPIs. Front end to back end. Numbers, not vibes.
+Radar — X scout. Signal only. No copy. No publish. You do not live in the feed.
+Scribe — short posts in your voice. Consistent presence without you in the composer.
+Herald — community stays live off the same engine.
+Nova — long-form and YouTube when you need depth without pulling Scribe off the daily lane.
+Donna — inbound brand. Support mail. Collabs. Press. Member questions. Answered as you.
+Pipeline and last mile
+Nexus — warm network conversations already in motion.
+Keel — pipeline and behavior email. Nurture without treating people like cold leads.
+Vox — closes the loop email cannot.
+Steve — executive performance seat so roles do not overlap.
+Forge — inbound enrichment stays ready.
+You do not switch all seventeen on day one. You pick the leftover job that still only goes out if you do it. One first. The rest of the suite is already in the room when that send is done.
+After that send, you get help building your own agents for whatever leftover work is still sitting, whichever way you need it. Ready-made first. Then your own seats. Help in the room. Not a second career as the engineer.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 11 — WHAT ELSE IS IN THE ROOM
+DEV: Bonus list. Pattern from $5 page 'what you get'. Do not price the pieces with invented dollar values.
+Access to Johnny inside the community. Not a face that disappears after checkout.
+Live hot seats twice a month if you get stuck. Everyone. You plug it in. I sit with you if it jams. I do not install your company.
+A community of founders and solopreneurs on the same leftover work. Same first send. Same I already tried the tab.
+Step by step so you can plug one in without becoming the engineer. You don't need to learn the tech.
+Classroom. Drops. How you talk. What it must never send.
+More bonuses and resources this page will not tour. If I listed every file, you would start collecting again.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 12 — PRICING
+DEV: Two plan cards + tool note + scarcity line. Then section 13 guarantee in the same visual band if possible.
+Look at that stack against the price.
+Builder — $37 / month
+Seventeen ready-made AI employees. Help to build your own after the first send. Access to Johnny. Hot seats twice a month. Peers. Step by step. Classroom. Drops. First send this week.
+Annual VIP Founder — $297 / year
+Everything in monthly, plus a 15-minute Architecture call and early alpha. Do not join for the call. Join for the first send. The suite is already in both.
+Member-side tools sit around $30 / month. Named on the way in. One tool can run this employee and the next loop. You are not buying a new $30 seat every time you add work.
+Right now is the best time to lock in the current price. The price may increase soon.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 13 — 7-DAY MONEY BACK
+DEV: Sit this directly under the price cards. Same band.
+Join. Name the leftover work. Do the week.
+If a draft is not sitting on that job in 7 days so you can hit send, and you did the steps, cancel. Money back. No lecture about modules you did not open.
+That is the 7-day money-back guarantee. It is not a promise you will make money. It is not a promise I did the setup. It is a promise about a draft on the job you named.
+If you skipped the steps and there is no draft, do not cancel yet. Book the hot seat. Bring the job from Day 0.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 14 — FAQ
+DEV: Accordion. Start Here stuck list + offer FAQ.
+Do I have to learn the tech?
+No. You plug it in. Step by step. You keep the send button. The channel teaches the box. This page is the employee.
+Can it send without me?
+No. That is the product this week. You approve. How you talk. What it must never send.
+What job does it do?
+The leftover work you name. I will not productize your industry on this page.
+Should I plug in a second employee this week?
+No. Same employee. Second send. Then the next seat.
+Can I wander the vault just to see?
+Not this week. That is how Sunday wins. Start Here is the path. The suite is in the room after the first send.
+Should I build a new agent from scratch this week?
+No. Match the job to a ready-made employee. After that send, you get help building your own.
+Is this a vault of 1,300 workflows?
+The library exists. It is not the door. First win is one named loop.
+Will this land me AI clients?
+No. If that is the goal, do not join.
+What if I already watched the long YouTube video?
+Good. That is the long way. This is the first job already built. You still plug it in.
+What extra tools do I pay for?
+About $30 a month on the tool the employee runs on. Named on the way in. Sits next to the $37, not inside it.
+What if I skip the steps and there is no draft?
+Do not cancel yet. Book the hot seat. Bring the job from Day 0. We get the draft sitting.
+SECTION 15 — FINAL CTA
+Tonight's work is already sitting. That is the real clock.
+You can stay the last click. The tab will keep starting the work. You will keep shipping it. The next piece of work will keep waiting.
+Or you name the leftover loop. Plug in one ready-made employee. Read the draft. Hit send. The other sixteen seats stay in the room until that send is done.
+Get your time back on the job you still do yourself. You don't need to learn the tech.
+Saying no is not free. Saying no is another week as the bottleneck.
+$37 a month or $297 a year. Seven days. Draft sitting, or the money comes back.
+The order form is the Skool About page. Same sentence as the top of this page.
+BUTTON: Get Your First AI Employee Working
+Subtext: $37/mo or $297/yr  ·  7-day draft-or-refund  ·  You don't need to learn the tech.
+Link: https://www.skool.com/aifoundersvault
+SECTION 16 — FOOTER / DISCLAIMERS
+DEV: Small type. Required.
+The AI Founder's Vault is a Skool community. Checkout happens on skool.com/aifoundersvault.
+I am not sitting behind your computer. Ready-made employees are there to plug in. I do not install your company. Income is not promised. Results vary. Your numbers will be your numbers.
+Do not treat member-count or 'price may increase soon' as a countdown clock on the page. One sentence at the price is enough.
+Do not display 1,300 workflows, 1,500 prompts, or 200+ agents on this page hero.
+© PRIXGIG PTY LTD / Modern Influence Society LLC. Terms and privacy as on Skool.
+SECTION 17 — DESIGN DO-NOTS FOR DEV
+Do not reuse the $5 challenge ticket language, Spur-meal comparison, or 7-day community trial framing.
+Do not reuse app screenshots (InvoiceFlow, Content IQ, etc.) as proof this employee sent a leftover job.
+Do not put a fake testimonial wall.
+Primary CTA always goes to https://www.skool.com/aifoundersvault
+Banner / OG image: Get Your First AI Employee Working. Line: It drafts. You hit send.
