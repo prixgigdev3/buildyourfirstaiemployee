@@ -1,18 +1,33 @@
-# BYFAE visual DNA (Muse)
+# Art DNA — buildyourfirstaiemployee (Kinso parity)
 
-Source of truth for art direction. Wren implements; Vera gates.
+**Locked 12 Sep 2026 (Johnny)**
 
-## Aesthetic
-- Kinso product-site: soft peach→white→pale aqua washes, fine square grid
-- Frosted sticky nav; product-UI feature storytelling
-- Accents: cooler Kinso blue/purple on **new assets**; page CTAs per current lock (ask Johnny before flipping orange→black globally)
-- Restraint over funnel chrome
+## Goal
+Duplicate **Kinso.ai** visual structure and design density with Vault / BYFAE copy — not a text page with a few cards.
 
-## Do / don't for assets
-- Do: warm light, clear metaphor, leave soft area for play controls on posters
-- Don't: fake dense UI chrome that fights real components; AI sludge; invented brand marks
+## Look language (Kinso)
+- Soft **peach → white → pale aqua** washes + fine square grid
+- Frosted sticky nav (`backdrop-blur`, translucent white)
+- Feature storytelling via **floating product UI mockups** (two-column copy + visual)
+- Black pill CTAs (Vault orange optional secondary only)
+- Late-page **near-black grid zone** for week density
+- Scroll: sticky nav, marquee loop, UI state reveals on enter-view (no heavy parallax)
 
-## Related
-- Asset index: `docs/art/ASSETS.md`
-- Latest handoff: `docs/art/HANDOFF.md`
-- Binaries: `public/kinso/`
+## Accents
+- Purple `#7C5AC5`, blue `#0099FF`, coral/peach, teal
+- Soft multi-layer shadows; radius ~12–24px; pills ~999px
+
+## Agent identity (locked)
+- Ready-made employees are **glossy marble / glass orbs** — **not** illustrated face headshots
+- Unique color swirl per agent; soft specular highlight
+- Marquee + employee list use the same orb language
+
+## Craft bar (She Remains insight)
+- Every major claim gets a **visual explanation**
+- Raise design amount to Kinso density without adopting loud peach-carousel funnel aesthetics
+
+## Owners
+- Muse: assets + this DNA
+- Wren: implement
+- Vera: Kinso parity gate + Kent’s 10
+- Ridge: Render

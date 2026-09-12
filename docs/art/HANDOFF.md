@@ -1,7 +1,23 @@
-# Muse → Wren handoff (latest)
+# Muse → Wren handoff
 
-- **Marquee:** Live UI uses sliced `avatars/*` avatar+name pills (17 seats). Muse `05` v4-dense staged for plate/underlay if needed.
-- **Dark week:** Use `06-dark-week.png` (= v2) — labels Priority / Leftover / Sent only.
-- **Employees list:** Faces from `avatars/{name}.png` matching copy seats.
-- **Do not:** Invent testimonials; warehouse stats on first screen; invent VSL URL.
-- **Gate:** Vera Kinso parity PASS through punch-list + marquee density @306870d.
+## Current locks
+1. Full Kinso-structure rebuild with Vault copy (not elevation-only)
+2. Agent visuals = **orbs** (Johnny 12 Sep) — swap any face avatars still on tip
+3. Dark-week chips must read **Priority / Leftover / Sent** (v2 art)
+4. Marquee density: prefer orb marquee file; HTML chips OK interim
+
+## Drop paths
+All art: `/workspace/byfae-assets/kinso-clone/` → stage to `public/kinso/`
+
+## GitHub for Grok
+Commit:
+- `AGENTS.md` (Helm seeded)
+- `docs/art/DNA.md`
+- `docs/art/ASSETS.md`
+- `docs/art/HANDOFF.md`
+- `docs/art/REBUILD-BRIEF.md` (section map)
+
+So Johnny / Grok can drive changes from repo docs, not chat history.
+
+## Proof
+Vera re-gates Kinso parity after orb swap + soft punch-list. Ridge bumps Render when tip is green.
