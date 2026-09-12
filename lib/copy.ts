@@ -7,7 +7,8 @@ export const cta = {
 } as const;
 
 export const hero = {
-  eyebrow: "The AI Founder's Vault",
+  brand: "The AI Founder's Vault",
+  eyebrow: "This week · one leftover job",
   headline: "Get Your First AI Employee Working",
   subhead:
     "Get your time back on the job you still do yourself. You don't need to learn the tech.",

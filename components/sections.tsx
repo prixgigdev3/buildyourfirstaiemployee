@@ -24,7 +24,7 @@ import { cn } from "@/lib/cn";
 
 export function Hero() {
   return (
-    <section className="bg-paper pb-16 pt-10 sm:pb-24 sm:pt-16 lg:pb-28 lg:pt-20">
+    <section id="top" className="bg-paper pb-16 pt-10 sm:pb-24 sm:pt-16 lg:pb-28 lg:pt-20">
       <div className="mx-auto grid w-full max-w-6xl items-start gap-10 px-6 sm:px-8 lg:grid-cols-2 lg:gap-16">
         <div className="flex flex-col gap-6 lg:pt-4">
           <Kicker>{hero.eyebrow}</Kicker>
@@ -164,7 +164,6 @@ export function DayByDay() {
         <DayCard day={pick} />
         <DayCard day={plug} />
         <DayCard day={work} />
-        <CtaBlock className="py-4" />
         <DayCard day={send} />
         <DayCard day={check} />
         <CtaBlock className="py-4" />
@@ -330,53 +329,57 @@ export function Room() {
 export function PricingGuarantee() {
   const plans = [pricing.monthly, pricing.annual];
   return (
-    <Section id="pricing">
-      <div className="max-w-3xl space-y-4">
-        <Kicker>Pricing</Kicker>
-        <SectionTitle>{pricing.look}</SectionTitle>
-      </div>
-      <div className="mt-12 grid gap-5 lg:grid-cols-2">
-        {plans.map((plan, i) => (
-          <article
-            key={plan.name}
-            className={cn(
-              "rounded-2xl border p-6 sm:p-8",
-              i === 1
-                ? "border-ink/20 bg-surface"
-                : "border-line bg-paper",
-            )}
-          >
-            <h3 className="text-lg font-semibold text-ink">{plan.name}</h3>
-            <p className="mt-4 font-mono text-4xl font-medium tabular-nums tracking-tight text-ink">
-              {plan.price}
-              <span className="ml-1 text-base font-normal text-mute">
-                {plan.cadence}
-              </span>
-            </p>
-            <p className="mt-5 text-pretty text-base leading-7 text-ink/80">
-              {plan.body}
-            </p>
-          </article>
-        ))}
-      </div>
-      <div className="mt-8 max-w-3xl space-y-4">
-        <Prose>{pricing.tools}</Prose>
-        <p className="text-pretty text-sm leading-6 text-mute">
-          {pricing.scarcity}
-        </p>
-        <CtaBlock className="pt-2" />
-      </div>
-      <div className="mt-16 max-w-3xl space-y-5 border-t border-line pt-12">
-        <Kicker>7-day money back</Kicker>
-        <p className="text-pretty text-lg font-medium leading-8 text-ink">
-          {guarantee.steps}
-        </p>
-        <Prose>{guarantee.promise}</Prose>
-        <Prose>{guarantee.whatItIs}</Prose>
-        <Prose>{guarantee.skipped}</Prose>
-        <CtaBlock className="pt-2" />
-      </div>
-    </Section>
+    <>
+      <Section id="pricing">
+        <div className="max-w-3xl space-y-4">
+          <Kicker>Pricing</Kicker>
+          <SectionTitle>{pricing.look}</SectionTitle>
+        </div>
+        <div className="mt-12 grid gap-5 lg:grid-cols-2">
+          {plans.map((plan, i) => (
+            <article
+              key={plan.name}
+              className={cn(
+                "rounded-2xl border p-6 sm:p-8",
+                i === 1
+                  ? "border-ink/20 bg-surface"
+                  : "border-line bg-paper",
+              )}
+            >
+              <h3 className="text-lg font-semibold text-ink">{plan.name}</h3>
+              <p className="mt-4 font-mono text-4xl font-medium tabular-nums tracking-tight text-ink">
+                {plan.price}
+                <span className="ml-1 text-base font-normal text-mute">
+                  {plan.cadence}
+                </span>
+              </p>
+              <p className="mt-5 text-pretty text-base leading-7 text-ink/80">
+                {plan.body}
+              </p>
+            </article>
+          ))}
+        </div>
+        <div className="mt-8 max-w-3xl space-y-4">
+          <Prose>{pricing.tools}</Prose>
+          <p className="text-pretty text-sm leading-6 text-mute">
+            {pricing.scarcity}
+          </p>
+          <CtaBlock className="pt-2" />
+        </div>
+      </Section>
+      <Section id="guarantee">
+        <div className="max-w-3xl space-y-5">
+          <Kicker>7-day money back</Kicker>
+          <p className="text-pretty text-lg font-medium leading-8 text-ink">
+            {guarantee.steps}
+          </p>
+          <Prose>{guarantee.promise}</Prose>
+          <Prose>{guarantee.whatItIs}</Prose>
+          <Prose>{guarantee.skipped}</Prose>
+          <CtaBlock className="pt-2" />
+        </div>
+      </Section>
+    </>
   );
 }
 
