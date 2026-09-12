@@ -25,11 +25,11 @@ function Pill({ name }: { name: string }) {
     <li className="inline-flex min-h-11 shrink-0 items-center gap-2.5 rounded-full border border-black/[0.06] bg-white py-1.5 pl-1.5 pr-4 shadow-[0_10px_28px_-18px_rgba(20,19,18,0.55)]">
       <Image
         src={`/kinso/agents/${name.toLowerCase()}.png`}
-        alt=""
+        alt={`${name} profile`}
         width={36}
         height={36}
         unoptimized
-        className="size-9 rounded-full"
+        className="size-9 rounded-full object-cover"
       />
       <span className="font-display text-[0.9375rem] tracking-tight text-ink">
         {name}

@@ -95,11 +95,11 @@ export function Employees() {
                     <div className="flex items-center gap-3">
                       <Image
                         src={`/kinso/agents/${seat.name.toLowerCase()}.png`}
-                        alt=""
+                        alt={`${seat.name} profile`}
                         width={40}
                         height={40}
                         unoptimized
-                        className="size-10 shrink-0 rounded-full ring-1 ring-black/10"
+                        className="size-10 shrink-0 rounded-full object-cover ring-1 ring-black/10"
                       />
                       <p className="font-medium text-ink">{seat.name}</p>
                     </div>
