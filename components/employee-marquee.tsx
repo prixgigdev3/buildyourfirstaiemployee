@@ -22,7 +22,7 @@ const marqueeSeats = [
 
 function Pill({ name }: { name: string }) {
   return (
-    <li className="inline-flex shrink-0 items-center gap-2.5 rounded-full border border-black/[0.06] bg-white py-1.5 pl-1.5 pr-4 shadow-[0_10px_28px_-18px_rgba(20,19,18,0.55)]">
+    <li className="inline-flex min-h-11 shrink-0 items-center gap-2.5 rounded-full border border-black/[0.06] bg-white py-1.5 pl-1.5 pr-4 shadow-[0_10px_28px_-18px_rgba(20,19,18,0.55)]">
       <Image
         src={`/kinso/avatars/${name.toLowerCase()}.png`}
         alt=""
