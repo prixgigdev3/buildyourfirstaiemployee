@@ -17,10 +17,10 @@ Duplicate **Kinso.ai** visual structure and design density with Vault / BYFAE co
 - Purple `#7C5AC5`, blue `#0099FF`, coral/peach, teal
 - Soft multi-layer shadows; radius ~12–24px; pills ~999px
 
-## Agent identity (locked)
-- Ready-made employees are **glossy marble / glass orbs** — **not** illustrated face headshots
-- Unique color swirl per agent; soft specular highlight
-- Marquee + employee list use the same orb language
+## Agent identity (locked — Johnny 12 Sep, revised)
+- Ready-made employees use **actual people portraits** (stylized illustrated headshots)
+- **Not** marble/glass orbs
+- Marquee + employee list use the same portrait language; diverse, consistent illustration set
 
 ## Craft bar (She Remains insight)
 - Every major claim gets a **visual explanation**
