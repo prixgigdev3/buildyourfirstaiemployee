@@ -90,9 +90,19 @@ export function Employees() {
                 {group.seats.map((seat) => (
                   <li
                     key={seat.name}
-                    className="grid gap-1 py-3.5 sm:grid-cols-[7.5rem_minmax(0,1fr)] sm:gap-6"
+                    className="grid gap-3 py-3.5 sm:grid-cols-[minmax(0,11rem)_minmax(0,1fr)] sm:items-center sm:gap-6"
                   >
-                    <p className="font-medium text-ink">{seat.name}</p>
+                    <div className="flex items-center gap-3">
+                      <Image
+                        src={`/kinso/avatars/${seat.name.toLowerCase()}.png`}
+                        alt=""
+                        width={40}
+                        height={40}
+                        unoptimized
+                        className="size-10 shrink-0 rounded-full ring-1 ring-black/10"
+                      />
+                      <p className="font-medium text-ink">{seat.name}</p>
+                    </div>
                     <p className="text-pretty text-sm leading-6 text-ink/70 sm:text-base sm:leading-7">
                       {seat.line}
                     </p>

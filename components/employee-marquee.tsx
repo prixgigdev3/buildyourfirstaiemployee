@@ -1,39 +1,51 @@
-import { marqueeChips } from "@/lib/copy";
-import { cn } from "@/lib/cn";
+import Image from "next/image";
 
-const accents = [
-  "bg-[#5B8DEF]",
-  "bg-[#3DB88A]",
-  "bg-[#8B7CF6]",
-  "bg-[#E45D5D]",
-  "bg-[#2DB8C0]",
-  "bg-[#4A7FD4]",
-  "bg-[#3DAA6D]",
-  "bg-[#9B6FE8]",
+const marqueeSeats = [
+  "Clark",
+  "Vesper",
+  "Pulse",
+  "Anchor",
+  "Ledger",
+  "Lisa",
+  "Swen",
+  "Radar",
+  "Scribe",
+  "Herald",
+  "Nova",
+  "Donna",
+  "Nexus",
+  "Keel",
+  "Vox",
+  "Steve",
+  "Forge",
 ] as const;
 
-function Chip({ label, accent }: { label: string; accent: string }) {
+function Pill({ name }: { name: string }) {
   return (
-    <li
-      className={cn(
-        "inline-flex shrink-0 items-center gap-2.5 rounded-full border border-black/[0.06] bg-white px-4 py-2.5 text-[0.8125rem] font-medium text-ink",
-        "shadow-[0_10px_28px_-18px_rgba(20,19,18,0.55)]",
-      )}
-    >
-      <span aria-hidden="true" className={cn("size-2.5 rounded-full", accent)} />
-      {label}
+    <li className="inline-flex shrink-0 items-center gap-2.5 rounded-full border border-black/[0.06] bg-white py-1.5 pl-1.5 pr-4 shadow-[0_10px_28px_-18px_rgba(20,19,18,0.55)]">
+      <Image
+        src={`/kinso/avatars/${name.toLowerCase()}.png`}
+        alt=""
+        width={36}
+        height={36}
+        unoptimized
+        className="size-9 rounded-full"
+      />
+      <span className="font-display text-[0.9375rem] tracking-tight text-ink">
+        {name}
+      </span>
     </li>
   );
 }
 
-function ChipRow({ hidden }: { hidden?: boolean }) {
+function PillRow({ hidden }: { hidden?: boolean }) {
   return (
     <ul
       className="flex items-center gap-2.5 pr-2.5"
       aria-hidden={hidden ? true : undefined}
     >
-      {marqueeChips.map((label, i) => (
-        <Chip key={`${label}-${i}`} label={label} accent={accents[i % accents.length]} />
+      {marqueeSeats.map((name) => (
+        <Pill key={name} name={name} />
       ))}
     </ul>
   );
@@ -50,30 +62,14 @@ export function EmployeeMarquee() {
         aria-hidden="true"
         className="wash-grid pointer-events-none absolute inset-0 opacity-40 mix-blend-multiply"
       />
-      {/* Muse 05 DNA plate — soft underlay for product density */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-x-0 top-1/2 h-24 -translate-y-1/2 opacity-[0.35] sm:h-28"
-        style={{
-          backgroundImage: "url(/kinso/05-employee-marquee.png)",
-          backgroundSize: "auto 100%",
-          backgroundRepeat: "repeat-x",
-          backgroundPosition: "center",
-          maskImage:
-            "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
-          WebkitMaskImage:
-            "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
-        }}
-      />
       <div className="relative">
         <p className="mb-5 text-center text-[0.6875rem] font-medium uppercase tracking-[0.18em] text-mute">
           Ready-made employees
         </p>
-        <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_6%,black_94%,transparent)]">
+        <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_5%,black_95%,transparent)]">
           <div className="marquee-track flex w-max items-center">
-            <ChipRow />
-            <ChipRow hidden />
-            <ChipRow hidden />
+            <PillRow />
+            <PillRow hidden />
           </div>
         </div>
       </div>
