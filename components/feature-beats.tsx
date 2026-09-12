@@ -13,7 +13,7 @@ const beats = [
     accent: "job",
   },
   {
-    src: "/features/plug-in-v3.png",
+    src: "/features/plug-in-v4.png",
     title: "Plug in a ready-made employee",
     body: "Match the job. Don’t build from scratch. Keep the send button.",
     accent: "plug",
