@@ -6,14 +6,14 @@ export function VslPoster() {
     <figure className="group w-full">
       <div className="relative aspect-video overflow-hidden rounded-2xl border border-line bg-surface-2">
         <Image
-          src="/vsl-poster.jpg"
-          alt="A quiet desk with an unfinished draft, a pen, and an empty chair"
+          src="/vsl-poster.png"
+          alt="Warm oak desk with open notebook, blue paperclip on a blank note, and soft leaf-shadow light"
           fill
           priority
           sizes="(min-width: 1024px) 560px, 100vw"
-          className="object-cover"
+          className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-ink/15" />
+        <div className="absolute inset-0 bg-ink/10" />
         <div
           aria-hidden="true"
           className="absolute inset-0 flex items-center justify-center"
