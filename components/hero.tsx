@@ -33,6 +33,7 @@ export function Hero() {
             <p className="max-w-md text-pretty text-base leading-7 text-on-dark-mute">
               {hero.door}
             </p>
+            <CtaBlock className="pt-1 lg:hidden" />
             <CtaBlock className="hidden pt-1 lg:flex" />
             <p className="hidden max-w-md text-pretty text-sm leading-6 text-on-dark-mute lg:block">
               {hero.microLine}
@@ -40,7 +41,7 @@ export function Hero() {
           </div>
 
           <div className="flex flex-col gap-6">
-            <div className="relative -mx-2 sm:mx-0">
+            <div className="relative -mx-2 overflow-hidden rounded-2xl ring-1 ring-white/15 shadow-[0_24px_60px_-28px_rgba(0,0,0,0.85)] sm:mx-0">
               <Image
                 src="/patha/01-patha-hero.png"
                 alt="Path A brand hero: Get Your First AI Employee Working"
@@ -53,7 +54,6 @@ export function Hero() {
               />
             </div>
             <VslPoster compact />
-            <CtaBlock className="lg:hidden" />
             <p className="max-w-md text-pretty text-sm leading-6 text-on-dark-mute lg:hidden">
               {hero.microLine}
             </p>
