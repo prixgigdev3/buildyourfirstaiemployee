@@ -4,7 +4,7 @@ import { marqueeChips } from "@/lib/copy";
 function Strip({ hidden }: { hidden?: boolean }) {
   return (
     <div
-      className="relative h-14 w-[42rem] shrink-0 sm:h-16 sm:w-[48rem]"
+      className="relative h-16 w-[min(90vw,46rem)] shrink-0 sm:h-[4.5rem] sm:w-[52rem]"
       aria-hidden={hidden ? true : undefined}
     >
       <Image
@@ -12,7 +12,7 @@ function Strip({ hidden }: { hidden?: boolean }) {
         alt=""
         fill
         unoptimized
-        sizes="48rem"
+        sizes="52rem"
         className="object-contain object-left"
       />
     </div>
