@@ -100,7 +100,7 @@ body {
 }
 
 .marquee-track {
-  animation: marquee-shift 42s linear infinite;
+  animation: marquee-shift 28s linear infinite;
   will-change: transform;
 }
 
