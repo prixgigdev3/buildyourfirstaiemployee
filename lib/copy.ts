@@ -1,14 +1,14 @@
 export const CHECKOUT_URL = "https://www.skool.com/aifoundersvault";
 
 export const marqueeChips = [
-  "Ops",
-  "Content",
   "Inbox",
+  "Follow-ups",
+  "Content",
+  "Quotes",
   "Calendar",
-  "Sales",
+  "Ops",
+  "Production",
   "Support",
-  "Research",
-  "Finance",
 ] as const;
 
 export const cta = {

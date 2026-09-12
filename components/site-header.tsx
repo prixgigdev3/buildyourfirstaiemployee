@@ -11,12 +11,14 @@ const nav = [
 export function SiteHeader() {
   return (
     <header className="material sticky top-0 z-40 border-b border-black/[0.06] pt-[env(safe-area-inset-top)]">
-      <div className="mx-auto flex min-h-14 w-full max-w-7xl items-center justify-between gap-3 px-5 sm:min-h-16 sm:gap-6 sm:px-8">
+      <div className="mx-auto flex min-h-14 w-full max-w-7xl items-center justify-between gap-2 px-4 sm:min-h-16 sm:gap-6 sm:px-8">
         <a
           href="#top"
-          className="inline-flex min-h-11 max-w-[58%] shrink items-center truncate text-[0.8125rem] font-medium tracking-tight text-ink sm:max-w-none sm:text-sm"
+          className="inline-flex min-h-11 min-w-0 shrink items-center text-[0.8125rem] font-medium tracking-tight text-ink sm:text-sm"
+          aria-label={hero.brand}
         >
-          {hero.brand}
+          <span className="sm:hidden">Vault</span>
+          <span className="hidden sm:inline">{hero.brand}</span>
         </a>
         <nav
           aria-label="Page"
@@ -32,7 +34,7 @@ export function SiteHeader() {
             </a>
           ))}
         </nav>
-        <div className="flex items-center gap-1 sm:gap-2">
+        <div className="flex shrink-0 items-center gap-0.5 sm:gap-2">
           <details className="relative lg:hidden">
             <summary
               className="flex size-11 cursor-pointer list-none items-center justify-center rounded-full text-ink transition-colors duration-150 hover:bg-black/[0.04]"
@@ -58,7 +60,7 @@ export function SiteHeader() {
           <a
             href={CHECKOUT_URL}
             className={cn(
-              "inline-flex min-h-11 shrink-0 cursor-pointer touch-manipulation items-center justify-center rounded-full bg-join px-5 text-sm font-medium text-on-join",
+              "inline-flex size-11 min-h-11 min-w-11 shrink-0 cursor-pointer touch-manipulation items-center justify-center rounded-full bg-join px-0 text-sm font-medium text-on-join sm:h-11 sm:w-auto sm:px-5",
               "transition-[transform,background-color,opacity] duration-150 ease-out",
               "hover:bg-black active:scale-[0.96] active:opacity-90",
               "focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-ink",

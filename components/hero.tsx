@@ -14,7 +14,7 @@ export function Hero() {
       <Shell className="relative">
         <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] lg:gap-8 xl:gap-12">
           <div className="flex flex-col gap-6 lg:max-w-xl lg:pt-4">
-            <Kicker>{hero.brand}</Kicker>
+            <Kicker>{hero.eyebrow}</Kicker>
             <h1 className="text-balance font-display text-[2.6rem] leading-[1.04] tracking-[-0.03em] text-ink sm:text-6xl lg:text-[4.15rem]">
               Get Your First
               <br />
