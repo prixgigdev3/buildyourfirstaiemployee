@@ -1,5 +1,16 @@
 export const CHECKOUT_URL = "https://www.skool.com/aifoundersvault";
 
+export const marqueeChips = [
+  "Ops",
+  "Content",
+  "Inbox",
+  "Calendar",
+  "Sales",
+  "Support",
+  "Research",
+  "Finance",
+] as const;
+
 export const cta = {
   label: "Get Your First AI Employee Working",
   subtext:

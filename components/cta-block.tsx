@@ -3,18 +3,39 @@ import { cn } from "@/lib/cn";
 
 export const ctaButtonClass = cn(
   "inline-flex max-w-full cursor-pointer touch-manipulation items-center justify-center",
-  "rounded-full bg-accent px-6 py-3 text-center text-[0.9375rem] font-medium text-pretty text-on-accent sm:px-7 sm:text-base",
+  "rounded-full bg-join px-6 py-3 text-center text-[0.9375rem] font-medium text-pretty text-on-join sm:px-7 sm:text-base",
   "min-h-12 w-full sm:w-auto",
   "transition-[transform,background-color,box-shadow,opacity] duration-150 ease-out",
-  "hover:bg-accent-hover",
-  "active:scale-[0.96] active:bg-accent-hover active:opacity-90 active:duration-75",
+  "hover:bg-black",
+  "active:scale-[0.96] active:opacity-90 active:duration-75",
   "focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-ink",
 );
 
-export function CtaButton({ className }: { className?: string }) {
+export const ctaOnDarkClass = cn(
+  "inline-flex max-w-full cursor-pointer touch-manipulation items-center justify-center",
+  "rounded-full bg-white px-6 py-3 text-center text-[0.9375rem] font-medium text-pretty text-ink sm:px-7 sm:text-base",
+  "min-h-12 w-full sm:w-auto",
+  "transition-[transform,background-color,box-shadow,opacity] duration-150 ease-out",
+  "hover:bg-on-dark",
+  "active:scale-[0.96] active:opacity-90 active:duration-75",
+  "focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-white",
+);
+
+export function CtaButton({
+  className,
+  tone = "join",
+  label,
+}: {
+  className?: string;
+  tone?: "join" | "onDark";
+  label?: string;
+}) {
   return (
-    <a href={CHECKOUT_URL} className={cn(ctaButtonClass, className)}>
-      {cta.label}
+    <a
+      href={CHECKOUT_URL}
+      className={cn(tone === "onDark" ? ctaOnDarkClass : ctaButtonClass, className)}
+    >
+      {label ?? cta.label}
     </a>
   );
 }
@@ -22,9 +43,13 @@ export function CtaButton({ className }: { className?: string }) {
 export function CtaBlock({
   align = "start",
   className,
+  tone = "join",
+  label,
 }: {
   align?: "start" | "center";
   className?: string;
+  tone?: "join" | "onDark";
+  label?: string;
 }) {
   return (
     <div
@@ -34,8 +59,13 @@ export function CtaBlock({
         className,
       )}
     >
-      <CtaButton />
-      <p className="max-w-md text-pretty text-sm leading-6 text-mute">
+      <CtaButton tone={tone} label={label} />
+      <p
+        className={cn(
+          "max-w-md text-pretty text-sm leading-6",
+          tone === "onDark" ? "text-on-dark-mute" : "text-mute",
+        )}
+      >
         {cta.subtext}
       </p>
     </div>

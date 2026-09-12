@@ -30,24 +30,20 @@ Render (later, not in this repo): web service, build `npm install && npm run bui
 
 ## Screenshot proof
 
+Kinso-class page: frosted nav, peach→aqua wash + grid, product-UI hero, employee chip marquee, three two-column feature bands, dark week zone, pricing, FAQ.
+
 With the dev server running:
 
-1. **Desktop (~1440×900)** — capture the hero (copy + VSL poster + CTA), the pricing band (`#pricing`), and one day module (`#start-here`).
-2. **Mobile (375×812)** — same three regions. Chrome DevTools → device toolbar → iPhone SE / 12, or:
-
-```bash
-# after npm run build && npm start
-# desktop
-npx --yes playwright install chromium
-```
+1. **Desktop (~1440×900)** — hero (copy + Muse product UI + VSL under), a feature band, dark week (`#week`), pricing (`#pricing`).
+2. **Mobile (375×812)** — same regions.
 
 Look for:
 
 - Hero has **no** 1,300 / 1,500 / 200+ stats row
-- Primary buttons all go to `https://www.skool.com/aifoundersvault`
-- VSL is a 16:9 poster with play mark and the line “Watch how the first employee takes the leftover job.”
-- Pricing is two quiet cards, then the 7-day guarantee in the same band
-- One CTA rhythm, no countdown clock
+- Primary buttons and nav Join go to `https://www.skool.com/aifoundersvault`
+- Nav Join is a black pill; hero/final CTAs are black pills
+- VSL is a 16:9 poster under/next to the product UI (no invented video URL)
+- `prefers-reduced-motion` stops marquee + reveal motion
 
 ## Brand constraints
 

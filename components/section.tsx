@@ -8,7 +8,7 @@ export function Shell({
   className?: string;
 }) {
   return (
-    <div className={cn("mx-auto w-full max-w-6xl px-6 sm:px-8", className)}>
+    <div className={cn("mx-auto w-full max-w-7xl px-6 sm:px-8", className)}>
       {children}
     </div>
   );
@@ -18,21 +18,19 @@ export function Section({
   id,
   children,
   className,
-  tone = "paper",
+  tone = "wash",
 }: {
   id?: string;
   children: React.ReactNode;
   className?: string;
-  tone?: "paper" | "surface" | "wash";
+  tone?: "wash" | "clear" | "dark";
 }) {
   return (
     <section
       id={id}
       className={cn(
         "scroll-mt-[calc(var(--header-h)+1rem)] py-20 sm:py-24 lg:py-32",
-        tone === "paper" && "bg-paper",
-        tone === "surface" && "bg-surface",
-        tone === "wash" && "bg-accent-soft/40",
+        tone === "dark" && "bg-dark text-on-dark",
         className,
       )}
     >
@@ -41,17 +39,39 @@ export function Section({
   );
 }
 
-export function Kicker({ children }: { children: React.ReactNode }) {
+export function Kicker({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
   return (
-    <p className="text-xs font-medium uppercase tracking-[0.14em] text-mute">
+    <p
+      className={cn(
+        "text-[0.6875rem] font-medium uppercase tracking-[0.18em] text-mute",
+        className,
+      )}
+    >
       {children}
     </p>
   );
 }
 
-export function SectionTitle({ children }: { children: React.ReactNode }) {
+export function SectionTitle({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
   return (
-    <h2 className="max-w-3xl text-balance text-3xl font-semibold leading-[1.15] text-ink sm:text-4xl">
+    <h2
+      className={cn(
+        "max-w-3xl text-balance font-display text-3xl leading-[1.12] tracking-[-0.02em] text-ink sm:text-4xl lg:text-[2.75rem]",
+        className,
+      )}
+    >
       {children}
     </h2>
   );
@@ -65,7 +85,12 @@ export function Prose({
   className?: string;
 }) {
   return (
-    <p className={cn("max-w-2xl text-pretty text-base leading-7 text-ink/80 sm:text-[1.0625rem] sm:leading-8", className)}>
+    <p
+      className={cn(
+        "max-w-2xl text-pretty text-base leading-7 text-ink/75 sm:text-[1.0625rem] sm:leading-8",
+        className,
+      )}
+    >
       {children}
     </p>
   );

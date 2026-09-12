@@ -1,22 +1,16 @@
-import { FeatureBeats } from "@/components/feature-beats";
-import { SiteFooter } from "@/components/site-footer";
-import { SiteHeader } from "@/components/site-header";
+import { EmployeeMarquee } from "@/components/employee-marquee";
+import { FeatureBands } from "@/components/feature-bands";
+import { Hero } from "@/components/hero";
 import {
-  Camps,
-  DayByDay,
   Employees,
   Faq,
   FinalCta,
-  Hero,
-  HowHelps,
-  Instructor,
-  OfferOverview,
   PricingGuarantee,
-  Proof,
-  Room,
-  WeekGlance,
   WhoFor,
 } from "@/components/sections";
+import { SiteFooter } from "@/components/site-footer";
+import { SiteHeader } from "@/components/site-header";
+import { WeekZone } from "@/components/week-zone";
 
 export default function Home() {
   return (
@@ -24,17 +18,11 @@ export default function Home() {
       <SiteHeader />
       <main id="main">
         <Hero />
-        <OfferOverview />
-        <Instructor />
-        <WeekGlance />
+        <EmployeeMarquee />
+        <FeatureBands />
         <WhoFor />
-        <FeatureBeats />
-        <DayByDay />
-        <Camps />
-        <HowHelps />
-        <Proof />
         <Employees />
-        <Room />
+        <WeekZone />
         <PricingGuarantee />
         <Faq />
         <FinalCta />

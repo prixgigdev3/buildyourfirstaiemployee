@@ -2,21 +2,30 @@
 
 :root {
   color-scheme: light;
-  --paper: #f3f1ec;
-  --ink: #171614;
+  --paper: #fff8f3;
+  --peach: #fde6d8;
+  --aqua: #d8efe9;
+  --ink: #141312;
   --mute: #5c5752;
-  --line: #ddd8d0;
-  --surface: #fffcf8;
-  --surface-2: #eae6df;
+  --line: #e6e0d7;
+  --surface: #ffffff;
+  --surface-2: #f4eee8;
   --accent: #c2410c;
   --accent-hover: #9a3412;
   --accent-soft: #f4e6dc;
   --on-accent: #ffffff;
-  --header-h: 4.5rem;
+  --join: #111111;
+  --on-join: #ffffff;
+  --dark: #0c0c0f;
+  --on-dark: #f3f1ec;
+  --on-dark-mute: #b7b1a8;
+  --header-h: 4rem;
 }
 
 @theme inline {
   --color-paper: var(--paper);
+  --color-peach: var(--peach);
+  --color-aqua: var(--aqua);
   --color-ink: var(--ink);
   --color-mute: var(--mute);
   --color-line: var(--line);
@@ -26,9 +35,15 @@
   --color-accent-hover: var(--accent-hover);
   --color-accent-soft: var(--accent-soft);
   --color-on-accent: var(--on-accent);
+  --color-join: var(--join);
+  --color-on-join: var(--on-join);
+  --color-dark: var(--dark);
+  --color-on-dark: var(--on-dark);
+  --color-on-dark-mute: var(--on-dark-mute);
   --color-background: var(--paper);
   --color-foreground: var(--ink);
   --font-sans: var(--font-geist-sans);
+  --font-display: var(--font-instrument), ui-serif, Georgia, serif;
   --font-mono: var(--font-geist-mono);
 }
 
@@ -38,20 +53,80 @@ html {
 }
 
 body {
-  background: var(--paper);
+  background-color: var(--paper);
+  background-image: linear-gradient(
+    118deg,
+    #fde6d8 0%,
+    #fff8f3 34%,
+    #ffffff 52%,
+    #e7f4f0 100%
+  );
+  background-attachment: fixed;
   color: var(--ink);
   font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   font-optical-sizing: auto;
+  overflow-x: clip;
 }
 
 ::selection {
-  background: var(--accent-soft);
+  background: #ead7c8;
   color: var(--ink);
 }
 
 :focus-visible {
   outline: 2px solid var(--ink);
   outline-offset: 3px;
+}
+
+.material {
+  background: rgb(255 255 255 / 0.62);
+  backdrop-filter: blur(22px) saturate(1.4);
+  -webkit-backdrop-filter: blur(22px) saturate(1.4);
+}
+
+.wash-grid {
+  background-image: url("/kinso/00-soft-grid.png");
+  background-size: 720px;
+  background-repeat: repeat;
+}
+
+@keyframes marquee-shift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.marquee-track {
+  animation: marquee-shift 42s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.feature-reveal {
+  opacity: 0;
+  transform: translate3d(0, 22px, 0);
+  transition:
+    opacity 560ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 560ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.feature-reveal[data-visible="true"] {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -65,41 +140,25 @@ body {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .marquee-track {
+    animation: none;
+    transform: none;
+  }
+
+  .feature-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 
 @media (prefers-reduced-transparency: reduce) {
   .material {
-    background: var(--surface) !important;
+    background: #ffffff !important;
     backdrop-filter: none !important;
-  }
-}
-
-details > summary {
-  list-style: none;
-}
-
-details > summary::-webkit-details-marker {
-  display: none;
-}
-
-
-/* Muse elevation — feature beat reveals */
-.feature-reveal {
-  opacity: 0;
-  transform: translateY(18px);
-  transition:
-    opacity 520ms cubic-bezier(0.22, 1, 0.36, 1),
-    transform 520ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-.feature-reveal[data-visible="true"] {
-  opacity: 1;
-  transform: translateY(0);
-}
-@media (prefers-reduced-motion: reduce) {
-  .feature-reveal {
-    opacity: 1;
-    transform: none;
-    transition: none;
+    -webkit-backdrop-filter: none !important;
   }
 }
