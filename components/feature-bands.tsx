@@ -15,7 +15,7 @@ const bands = [
     kicker: "Draft you send",
     title: draft.title,
     body: [draft.paragraphs[0], draft.paragraphs[4], howHelps.wait],
-    src: "/kinso/02-feature-draft.png",
+    src: "/patha/02-patha-feature-draft.png",
     alt: "Draft composer with a Send control. It drafts. You keep the last click.",
     muse: "feature-draft",
     flip: false,

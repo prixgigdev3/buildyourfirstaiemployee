@@ -36,8 +36,8 @@ export function WeekZone() {
           </div>
           <div className="relative">
             <Image
-              src="/kinso/06-dark-week.png"
-              alt="Day 0 through Day 3 on a dark grid: name the job, pick the employee, draft and send"
+              src="/patha/03-patha-dark-week.png"
+              alt="Path A dark week: Day 0 name the job, Day 1 pick employee, Day 3 draft and send"
               width={1280}
               height={720}
               unoptimized
