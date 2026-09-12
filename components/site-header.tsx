@@ -60,7 +60,7 @@ export function SiteHeader() {
           <a
             href={CHECKOUT_URL}
             className={cn(
-              "inline-flex size-11 min-h-11 min-w-11 shrink-0 cursor-pointer touch-manipulation items-center justify-center rounded-full bg-join px-0 text-sm font-medium text-on-join sm:h-11 sm:w-auto sm:px-5",
+              "inline-flex min-h-11 min-w-11 shrink-0 cursor-pointer touch-manipulation items-center justify-center rounded-full bg-join px-4 text-sm font-medium text-on-join sm:px-5",
               "transition-[transform,background-color,opacity] duration-150 ease-out",
               "hover:bg-black active:scale-[0.96] active:opacity-90",
               "focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-ink",
