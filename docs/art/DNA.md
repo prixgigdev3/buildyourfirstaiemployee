@@ -31,3 +31,6 @@ Duplicate **Kinso.ai** visual structure and design density with Vault / BYFAE co
 - Wren: implement
 - Vera: Kinso parity gate + Kent’s 10
 - Ridge: Render
+
+## Path A brand surface (12 Sep 2026)
+Kinso = structure/density. Path A = brand surface (orange `#ff7a00`, charcoal heroes + grain, Inter 800 + Playfair 900 italic). See `PATH-A-BRAND.md`.

@@ -42,14 +42,19 @@ export function Section({
 export function Kicker({
   children,
   className,
+  pill = false,
 }: {
   children: React.ReactNode;
   className?: string;
+  pill?: boolean;
 }) {
+  if (pill) {
+    return <p className={cn("pa-pill w-fit", className)}>{children}</p>;
+  }
   return (
     <p
       className={cn(
-        "text-[0.6875rem] font-medium uppercase tracking-[0.18em] text-mute",
+        "text-[0.6875rem] font-extrabold uppercase tracking-[0.12em] text-mute",
         className,
       )}
     >
@@ -68,7 +73,7 @@ export function SectionTitle({
   return (
     <h2
       className={cn(
-        "max-w-3xl text-balance font-display text-3xl leading-[1.12] tracking-[-0.02em] text-ink sm:text-4xl lg:text-[2.75rem]",
+        "max-w-3xl text-balance font-sans text-3xl font-extrabold leading-[1.12] tracking-[-0.02em] text-ink sm:text-4xl lg:text-[2.75rem]",
         className,
       )}
     >

@@ -6,28 +6,35 @@ import { hero } from "@/lib/copy";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden pb-16 pt-10 sm:pb-20 sm:pt-14 lg:pb-24 lg:pt-16">
+    <section className="pa-grain relative overflow-hidden bg-dark pb-16 pt-10 text-on-dark sm:pb-20 sm:pt-14 lg:pb-24 lg:pt-16">
       <div
         aria-hidden="true"
-        className="wash-grid pointer-events-none absolute inset-0 opacity-50 mix-blend-multiply"
+        className="pa-vignette pointer-events-none absolute inset-0 opacity-90"
       />
-      <Shell className="relative">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_20%,rgba(255,122,0,0.08),transparent_55%)]"
+      />
+      <Shell className="relative z-10">
         <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] lg:gap-8 xl:gap-12">
           <div className="flex flex-col gap-6 lg:max-w-xl lg:pt-4">
-            <Kicker>{hero.eyebrow}</Kicker>
-            <h1 className="text-balance font-display text-[2.6rem] leading-[1.04] tracking-[-0.03em] text-ink sm:text-6xl lg:text-[4.15rem]">
-              Get Your First
+            <Kicker pill className="bg-black/45">
+              {hero.eyebrow}
+            </Kicker>
+            <h1 className="text-balance text-[2.4rem] font-extrabold leading-[1.05] tracking-[-0.03em] text-white sm:text-5xl lg:text-[4rem]">
+              Get Your{" "}
+              <span className="pa-power text-[1.05em]">First AI Employee</span>
               <br />
-              AI Employee Working
+              Working
             </h1>
-            <p className="max-w-md text-pretty text-lg leading-8 text-ink/75 sm:text-xl sm:leading-9">
+            <p className="max-w-md text-pretty text-lg font-medium leading-8 text-white/85 sm:text-xl sm:leading-9">
               {hero.subhead}
             </p>
-            <p className="max-w-md text-pretty text-base leading-7 text-mute">
+            <p className="max-w-md text-pretty text-base leading-7 text-on-dark-mute">
               {hero.door}
             </p>
             <CtaBlock className="hidden pt-1 lg:flex" />
-            <p className="hidden max-w-md text-pretty text-sm leading-6 text-mute lg:block">
+            <p className="hidden max-w-md text-pretty text-sm leading-6 text-on-dark-mute lg:block">
               {hero.microLine}
             </p>
           </div>
@@ -47,7 +54,7 @@ export function Hero() {
             </div>
             <VslPoster compact />
             <CtaBlock className="lg:hidden" />
-            <p className="max-w-md text-pretty text-sm leading-6 text-mute lg:hidden">
+            <p className="max-w-md text-pretty text-sm leading-6 text-on-dark-mute lg:hidden">
               {hero.microLine}
             </p>
           </div>

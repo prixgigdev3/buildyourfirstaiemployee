@@ -10,7 +10,7 @@ export function WeekZone() {
     <section
       id="week"
       data-muse-slot="dark-week-fragments"
-      className="relative scroll-mt-[calc(var(--header-h)+1rem)] overflow-hidden bg-dark py-20 text-on-dark sm:py-24 lg:py-32"
+      className="pa-grain relative scroll-mt-[calc(var(--header-h)+1rem)] overflow-hidden bg-dark py-20 text-on-dark sm:py-24 lg:py-32"
     >
       <div
         aria-hidden="true"

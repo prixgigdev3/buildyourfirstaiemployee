@@ -3,20 +3,20 @@ import { cn } from "@/lib/cn";
 
 export const ctaButtonClass = cn(
   "inline-flex max-w-full cursor-pointer touch-manipulation items-center justify-center",
-  "rounded-full bg-join px-6 py-3 text-center text-[0.9375rem] font-medium text-pretty text-on-join sm:px-7 sm:text-base",
+  "rounded-full bg-join px-6 py-3 text-center text-[0.9375rem] font-extrabold text-pretty text-on-join sm:px-7 sm:text-base",
   "min-h-12 w-full sm:w-auto",
   "transition-[transform,background-color,box-shadow,opacity] duration-150 ease-out",
-  "hover:bg-black",
+  "hover:bg-accent-hover",
   "active:scale-[0.96] active:opacity-90 active:duration-75",
-  "focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-ink",
+  "focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-accent",
 );
 
 export const ctaOnDarkClass = cn(
   "inline-flex max-w-full cursor-pointer touch-manipulation items-center justify-center",
-  "rounded-full bg-white px-6 py-3 text-center text-[0.9375rem] font-medium text-pretty text-ink sm:px-7 sm:text-base",
+  "rounded-full bg-join px-6 py-3 text-center text-[0.9375rem] font-extrabold text-pretty text-on-join sm:px-7 sm:text-base",
   "min-h-12 w-full sm:w-auto",
   "transition-[transform,background-color,box-shadow,opacity] duration-150 ease-out",
-  "hover:bg-on-dark",
+  "hover:bg-accent-hover",
   "active:scale-[0.96] active:opacity-90 active:duration-75",
   "focus-visible:outline-2 focus-visible:outline-offset-[3px] focus-visible:outline-white",
 );
@@ -44,12 +44,10 @@ export function CtaBlock({
   align = "start",
   className,
   tone = "join",
-  label,
 }: {
   align?: "start" | "center";
   className?: string;
   tone?: "join" | "onDark";
-  label?: string;
 }) {
   return (
     <div
@@ -59,7 +57,7 @@ export function CtaBlock({
         className,
       )}
     >
-      <CtaButton tone={tone} label={label} />
+      <CtaButton tone={tone} />
       <p
         className={cn(
           "max-w-md text-pretty text-sm leading-6",
