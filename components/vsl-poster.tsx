@@ -18,10 +18,10 @@ export function VslPoster() {
           aria-hidden="true"
           className="absolute inset-0 flex items-center justify-center"
         >
-          <span className="flex size-16 items-center justify-center rounded-full bg-surface/90 shadow-md ring-1 ring-ink/10 backdrop-blur-sm transition-transform duration-150 ease-out group-hover:scale-105 group-active:scale-95">
+          <span className="flex size-12 items-center justify-center rounded-full bg-surface/90 shadow-md ring-1 ring-ink/10 backdrop-blur-sm transition-transform duration-150 ease-out group-hover:scale-105 group-active:scale-95 sm:size-16">
             <svg
               viewBox="0 0 24 24"
-              className="ml-0.5 size-6 fill-ink"
+              className="ml-0.5 size-5 fill-ink sm:size-6"
               aria-hidden="true"
             >
               <path d="M8 5.14v13.72L19.5 12 8 5.14z" />
