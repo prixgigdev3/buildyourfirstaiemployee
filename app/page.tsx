@@ -1,3 +1,4 @@
+import { FeatureBeats } from "@/components/feature-beats";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import {
@@ -27,6 +28,7 @@ export default function Home() {
         <Instructor />
         <WeekGlance />
         <WhoFor />
+        <FeatureBeats />
         <DayByDay />
         <Camps />
         <HowHelps />
