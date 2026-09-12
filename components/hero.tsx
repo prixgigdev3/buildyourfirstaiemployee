@@ -43,8 +43,8 @@ export function Hero() {
           <div className="flex flex-col gap-6">
             <div className="relative -mx-2 overflow-hidden rounded-2xl ring-1 ring-white/15 shadow-[0_24px_60px_-28px_rgba(0,0,0,0.85)] sm:mx-0">
               <Image
-                src="/patha/01-patha-hero.png"
-                alt="Path A brand hero: Get Your First AI Employee Working"
+                src="/kinso/01-hero-ui.png"
+                alt="AI employee product UI: inbox draft ready to send, morning checklist, and leftover-job chips"
                 width={1280}
                 height={720}
                 priority
