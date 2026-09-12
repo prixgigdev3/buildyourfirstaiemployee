@@ -106,7 +106,7 @@ export function FeatureBeats() {
                   alt=""
                   fill
                   sizes="(min-width: 768px) 33vw, 100vw"
-                  className="object-cover"
+                  className="object-contain bg-[#F7F7F7]"
                 />
               </div>
               <div className="space-y-2 p-5 sm:p-6">
