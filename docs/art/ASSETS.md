@@ -6,22 +6,34 @@ Box source: `/workspace/byfae-assets/kinso-clone/`
 | File | Placement |
 | --- | --- |
 | `01-hero-ui.png` | Hero layered product UI |
-| `02-feature-draft.png` | Draft / Send feature band |
-| `03-feature-match.png` | Leftover-job match band |
-| `04-feature-context.png` | How you talk / never send |
-| `06-dark-week.png` / `06-dark-week-v2.png` | Dark week — chips Priority / Leftover / Sent |
+| `02–04` feature panels | Draft / match / context |
+| `06-dark-week-v2.png` | Dark week — Priority / Leftover / Sent |
 
-## Agents = people portraits (locked)
-| File | Agents |
+## Agents = real profile pics (locked Johnny 12 Sep)
+Use each agent’s actual Grok Bot `avatar.png` — **not** illustrated sheets, **not** orbs.
+
+Folder: `agents/` (also stage under `public/kinso/agents/`)
+
+| File | Agent |
 | --- | --- |
-| `05-employee-marquee-v2.png` | Dense avatar+name marquee (preferred) |
-| `07-agents-ops.png` | Clark, Vesper, Pulse, Anchor, Ledger, Lisa |
-| `08-agents-growth.png` | Swen, Radar, Scribe, Herald, Nova, Donna |
-| `09-agents-pipeline.png` | Nexus, Keel, Vox, Steve, Forge |
+| `clark.png` | Clark |
+| `vesper.png` | Vesper |
+| `pulse.png` | Pulse |
+| `anchor.png` | Anchor |
+| `ledger.png` | Ledger |
+| `lisa.png` | Lisa |
+| `swen.png` | Swen |
+| `radar.png` | Radar |
+| `scribe.png` | Scribe |
+| `herald.png` | Herald |
+| `nova.png` | Nova |
+| `donna.png` | Donna |
+| `nexus.png` | Nexus |
+| `keel.png` | Keel |
+| `vox.png` | Vox |
+| `steve.png` | Steve |
+| `forge.png` | Forge |
 
-Slice circles to 1:1 for list rows.
+See `agents/MANIFEST.json`. Marquee + employee list should be HTML chips with these circular cropped profile pics (Wren), not a baked illustration strip.
 
-**Deprecated:** `*-orbs.png` — do not ship.
-
-## Docs
-`docs/art/DNA.md`, `ASSETS.md`, `HANDOFF.md`, `REBUILD-BRIEF.md` + root `AGENTS.md`
+**Deprecated:** `*-orbs.png`, illustrated face sheets `07–09-agents-*.png`, generated marquees.

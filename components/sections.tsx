@@ -94,7 +94,7 @@ export function Employees() {
                   >
                     <div className="flex items-center gap-3">
                       <Image
-                        src={`/kinso/avatars/${seat.name.toLowerCase()}.png`}
+                        src={`/kinso/agents/${seat.name.toLowerCase()}.png`}
                         alt=""
                         width={40}
                         height={40}
