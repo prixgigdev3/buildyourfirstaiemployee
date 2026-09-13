@@ -50,11 +50,18 @@
 }
 
 html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   background: var(--paper);
   scroll-behavior: smooth;
 }
 
 body {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   background-color: var(--paper);
   background-image: linear-gradient(
     118deg,
@@ -67,7 +74,6 @@ body {
   color: var(--ink);
   font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   font-optical-sizing: auto;
-  overflow-x: clip;
 }
 
 ::selection {
@@ -201,6 +207,12 @@ details > summary::-webkit-details-marker {
   font-weight: 900;
   color: var(--pa-orange);
   text-shadow: 0 0 18px var(--pa-orange-glow);
+}
+.page-wash,
+.dark-vignette,
+.site-end {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .pa-pill {
   display: inline-flex;

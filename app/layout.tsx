@@ -18,6 +18,12 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover" as const,
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   title: "Get Your First AI Employee Working | The AI Founder's Vault",
@@ -44,14 +50,16 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
-      <body id="top" className="min-h-dvh bg-paper font-sans text-ink">
+      <body id="top" className="min-h-dvh w-full max-w-full overflow-x-hidden bg-paper font-sans text-ink">
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-surface focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-ink focus:shadow-md"
         >
           Skip to content
         </a>
-        {children}
+        <div className="relative w-full max-w-full overflow-x-hidden">
+          {children}
+        </div>
       </body>
     </html>
   );
